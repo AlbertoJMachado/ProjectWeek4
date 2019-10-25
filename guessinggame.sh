@@ -19,5 +19,5 @@ while read -r response && [[ $response != $numberOfFiles ]]
 do 
 	verifyAndReply $response $numberOfFiles
 done
-	make README.md
+	make -s README.md
 	echo "*** "$numberOfFiles" is correct ***"
